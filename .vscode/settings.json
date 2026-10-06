@@ -1,0 +1,10 @@
+{
+    "chat.mcp.serverSampling": {
+        "KGOTHATSOFOUNDATIONWEB/.vscode/mcp.json: io.github.ChromeDevTools/chrome-devtools-mcp": {
+            "allowedModels": [
+                "copilot/auto",
+                "copilotcli/auto"
+            ]
+        }
+    }
+}

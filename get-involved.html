@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Get Involved | Kgothatso Foundation</title>
+
+    <meta
+        name="description"
+        content="Get involved with Kgothatso Foundation through volunteering, donations, partnerships and community support."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container nav">
+
+        <a
+            href="index.html"
+            class="logo"
+            aria-label="Kgothatso Foundation home"
+        >
+            <span class="logo-mark">K</span>
+            <span>
+                Kgothatso
+                <small>Foundation</small>
+            </span>
+        </a>
+
+        <nav
+            class="desktop-nav"
+            id="nav"
+            aria-label="Main navigation"
+        >
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="programmes.html">Our Work</a>
+            <a href="get-involved.html" aria-current="page">Get Involved</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="get-involved.html" class="nav-button">
+            Support Our Work
+        </a>
+
+        <button
+            class="menu-button"
+            type="button"
+            aria-label="Open navigation"
+            aria-controls="nav"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
+
+    </div>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero involvement-hero">
+        <div class="container hero-content">
+
+            <span class="eyebrow">GET INVOLVED</span>
+
+            <h1>
+                Be part of <em>the change.</em>
+            </h1>
+
+            <p>
+                Whether you want to volunteer, donate, partner with us or
+                support a programme, we'd like to hear from you.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- CONTACT / INVOLVEMENT FORM -->
+    <section>
+        <div class="container form-layout">
+
+            <div class="form-intro">
+
+                <span class="eyebrow">CONNECT WITH US</span>
+
+                <h2>
+                    Let's build
+                    <span>something meaningful.</span>
+                </h2>
+
+                <p>
+                    Complete the form and a member of the Kgothatso Foundation
+                    team can follow up with you.
+                </p>
+
+                <div class="contact-mini">
+
+                    <div>
+                        <strong>Volunteer</strong>
+                        <span>Give your time and skills.</span>
+                    </div>
+
+                    <div>
+                        <strong>Donate</strong>
+                        <span>Support our programmes.</span>
+                    </div>
+
+                    <div>
+                        <strong>Partner</strong>
+                        <span>Work with us for greater impact.</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <form
+                class="involvement-form"
+                action="YOUR_FORM_ENDPOINT"
+                method="POST"
+            >
+
+                <input
+                    type="hidden"
+                    name="_subject"
+                    value="New Kgothatso Foundation enquiry"
+                >
+
+                <div class="form-row">
+
+                    <div>
+                        <label for="name">Full Name</label>
+
+                        <input
+                            id="name"
+                            name="name"
+                            type="text"
+                            required
+                            autocomplete="name"
+                        >
+                    </div>
+
+                    <div>
+                        <label for="email">Email Address</label>
+
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            required
+                            autocomplete="email"
+                        >
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+
+                    <div>
+                        <label for="phone">Phone Number</label>
+
+                        <input
+                            id="phone"
+                            name="phone"
+                            type="tel"
+                            autocomplete="tel"
+                        >
+                    </div>
+
+                    <div>
+                        <label for="interest">I want to</label>
+
+                        <select
+                            id="interest"
+                            name="interest"
+                            required
+                        >
+                            <option value="">Select an option</option>
+                            <option value="volunteer">Volunteer</option>
+                            <option value="donate">Donate</option>
+                            <option value="partner">
+                                Partner with Kgothatso
+                            </option>
+                            <option value="programme">
+                                Support a programme
+                            </option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="7"
+                        required
+                        placeholder="Tell us how you'd like to get involved..."
+                    ></textarea>
+                </div>
+
+                <label class="checkbox">
+                    <input
+                        type="checkbox"
+                        name="consent"
+                        value="yes"
+                        required
+                    >
+
+                    <span>
+                        I agree to Kgothatso Foundation contacting me
+                        regarding my enquiry.
+                    </span>
+                </label>
+
+                <button
+                    type="submit"
+                    class="button primary"
+                >
+                    Send Enquiry →
+                </button>
+
+                <p
+                    class="form-status"
+                    aria-live="polite"
+                ></p>
+
+            </form>
+
+        </div>
+    </section>
+
+    <!-- DONATIONS -->
+    <section class="donate">
+        <div class="container donate-grid">
+
+            <div>
+                <span class="eyebrow">DONATE DIRECTLY</span>
+
+                <h2>
+                    Your support creates
+                    <span>opportunity.</span>
+                </h2>
+
+                <p>
+                    If you would prefer to donate via EFT, use the details
+                    provided.
+                </p>
+            </div>
+
+            <div class="bank-card">
+
+                <div class="bank-header">
+                    <span>DONATION DETAILS</span>
+                    <b>NPO</b>
+                </div>
+
+                <div class="bank-details">
+
+                    <div>
+                        <small>Account Holder</small>
+                        <strong>
+                            KGOTHATSO FOUNDATION NPO
+                        </strong>
+                    </div>
+
+                    <div>
+                        <small>Bank</small>
+                        <strong>
+                            First National Bank (FNB)
+                        </strong>
+                    </div>
+
+                    <div>
+                        <small>Account Number</small>
+                        <strong>
+                            63140721986
+                        </strong>
+                    </div>
+
+                    <div>
+                        <small>Branch Code</small>
+                        <strong>
+                            252942
+                        </strong>
+                    </div>
+
+                    <div>
+                        <small>Branch</small>
+                        <strong>
+                            Primrose
+                        </strong>
+                    </div>
+
+                </div>
+
+                <p class="bank-note">
+                    Please use your name or organisation as the payment
+                    reference where possible.
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+
+            <a
+                href="index.html"
+                class="logo"
+                aria-label="Kgothatso Foundation home"
+            >
+                <span class="logo-mark">K</span>
+                <span>
+                    Kgothatso
+                    <small>Foundation</small>
+                </span>
+            </a>
+
+            <p>
+                Transforming lives through community support, opportunity
+                and empowerment.
+            </p>
+
+        </div>
+
+        <div>
+            <h4>Explore</h4>
+
+            <a href="about.html">About</a>
+            <a href="programmes.html">Our Work</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+            <h4>Get Involved</h4>
+
+            <a href="get-involved.html">Volunteer</a>
+            <a href="get-involved.html">Donate</a>
+            <a href="get-involved.html">Partner</a>
+        </div>
+
+        <div>
+            <h4>Contact</h4>
+
+            <a href="mailto:info@kgothatso-foundation.org.za">
+                info@kgothatso-foundation.org.za
+            </a>
+
+            <a href="tel:0752042586">
+                075 204 2586
+            </a>
+        </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+        <span>
+            © 2026 Kgothatso Foundation.
+        </span>
+
+        <span>
+            Built for impact.
+        </span>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
